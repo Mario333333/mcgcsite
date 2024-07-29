@@ -35,7 +35,7 @@ export default function Nav() {
 
   return ( loaded &&
     <nav ref={menuRef} className="menu">
-      {width < 768 && (
+      {width < 600 && (
         <Image
           alt="menu-icon"
           className="menu_icon"
@@ -46,7 +46,7 @@ export default function Nav() {
         />
       )}
 
-      {(width >= 768 || isOpen) && (
+      {(width >= 600 || isOpen) && (
         <ol>
           <li className="menu-item">
             <Link href="/">Me</Link>

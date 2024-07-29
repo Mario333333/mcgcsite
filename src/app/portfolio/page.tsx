@@ -2,7 +2,7 @@ import { projects } from "@/utils/projects";
 import Image from "next/image";
 import Link from "next/link";
 
-export default async function CV() {
+export default async function Portfolio() {
   return (
     <div className="px-10 my-20 min-h-screen">
       <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3  gap-10 mb-10">
