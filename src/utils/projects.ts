@@ -16,7 +16,7 @@ export const projects = [
     link: "https://m68.mx/",
   },
   {
-    title: "",
+    title: "Telcel site",
     description: `I made this redesign, the site is from a company whose name is fonyou, it send products from Telcel, which is an important company in Mexico,
      In this company i used technologies like React, Next.js, javascript and TailwindCSS. We use Gitlab, jenkins, docker, jubernetes and GCP for the CI/CD`,
     images: ["telcel.jpg", ""],
